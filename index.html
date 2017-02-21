@@ -7,19 +7,13 @@
 </head>
 <body>
 
-  <!-- Наш весь сайт  -->
-  <div class="container-fluid">
+  <div id="section_1" class="container-fluid">
 
-    <!-- Первый контейнер (желтый блок) -->
-    <div id="section_1" class="main-block">
-
-      <!-- Шапка сайта -->
       <div class="main-block-header">
         <div class="row">
 
           <div class="col-md-1">
 
-            <!-- Логотип -->
             <div class="main-block-logo">
               <img src="./img/logo-mini.png">
             </div>
@@ -28,7 +22,6 @@
 
           <div class="col-md-11">
 
-            <!-- Меню -->
             <div class="main-block-menu">
               <ul>
                 <li><a href="">Create an account</a></li>
@@ -43,39 +36,29 @@
         </div>
       </div>
 
-      <!-- Контент (основная информация блока) -->
       <div class="main-block-content">
 
         <div class="row">
 
-          <!-- Делим блок на 2 части. -->
-
-          <!--
-            P.S:
-              Чтобы мы понимали наш код в следующий раз,
-              мы даем описание (класс) некоторым блокам. Пример: (главный левый блок = main-block-left)
-          -->
-
-          <!-- #1 - В первой будет заголовок, параграф, кнопки -->
           <div class="col-md-6">
 
             <div class="main-block-left">
 
-              <h1>MeshApp - <br>Play Songs Like Never Before.</h1>
+                <h1>MeshApp - <br><b>Play Songs Like Never Before.</b></h1>
 
-              <p>Don’t leave your shopping to the last minute. The more time you have to shop around, the more you can negotiate. </p>
+              <p>Don’t leave your shopping to the last minute. <br>The more time you have to shop around, the <br>more you can negotiate. </p>
 
               <ul>
                 <li>
-                  <button>
+                  <button class="button btn-rounded">
                     <img src="./img/icon-apple.png">
-                    <span>App Store</span>
+                    <span class="position">App Store</span>
                   </button>
                 </li>
                 <li>
-                  <button>
+                  <button class="button">
                     <img src="./img/icon-gplay.png">
-                    <span>Google Play</span>
+                    <span class="position">Google Play</span>
                   </button>
                 </li>
               </ul>
@@ -83,20 +66,16 @@
             </div>
           </div>
 
-          <!-- #2 - Во второй будет изображение с рукой и айфоном -->
           <div class="col-md-6">
             <div class="main-block-right">
-              <!-- Изображение с рукой  -->
+              <img src="img/hand-iphone.png">
             </div>
           </div>
         </div>
 
       </div>
-    </div>
-    <!-- Конец первого контейнера (желтый блок) -->
 
   </div>
-  <!-- Конец нашего сайта. -->
 
 </body>
 </html>

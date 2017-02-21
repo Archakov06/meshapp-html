@@ -1,25 +1,19 @@
-@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro');
-
-body {
-  font-family: 'Source Sans Pro', sans-serif;
-}
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,200i,300,300i,400,400i,600,600i,700,700i,900,900i');
 
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   outline: none;
-}
-
-.container-fluid {
-  padding: 0;
+  font-family: 'Source Sans Pro', sans-serif;
 }
 
 #section_1 {
-  background-color: #FFE061;
+  background-color: #FBEC6F;
 }
 
 .main-block-menu ul {
+  font-size: 20px;
   list-style: none;
 }
 
@@ -32,16 +26,14 @@ body {
   color: black;
 }
 
-.main-block-logo {
-}
-
 .main-block-menu {
   float: right;
   margin: 10px;
 }
 
 .main-block-header {
-  padding: 50px;
+  padding: 70px;
+  margin-bottom: 150px;
 }
 
 .main-block-menu ul li a {
@@ -51,4 +43,56 @@ body {
 
 .main-block-menu ul li a:hover {
   color: white;
+}
+
+.main-block-left {
+  font-size: 15px;
+  padding-left: 70px;
+  color: #3c3c3a;
+}
+
+.main-block-left h1 {
+  font-weight: 300;
+  margin-bottom: 50px;
+}
+
+.main-block-left h1 b {
+  font-weight: 600;
+}
+
+.main-block-left p {
+  font-size: 25px;
+  margin-bottom: 50px;
+  font-weight: 300;
+}
+
+.main-block-left ul li {
+  margin-right: 50px;
+  display: inline-block;
+}
+
+.button {
+  color: #3c3c3a;
+  font-size: 20px;
+  background-color: transparent;
+  border: 2px solid #3c3c3a;
+  border-radius: 9px;
+  padding: 10px 25px;
+  transition: all 0.3s;
+  cursor: pointer;
+}
+
+.button span {
+  position: relative;
+  top: -10px;
+  margin-left: 10px;
+}
+
+.button.btn-rounded {
+  border-radius: 35px;
+}
+
+.main-block-right img {
+  margin-top: -100px;
+  float: right;
 }
